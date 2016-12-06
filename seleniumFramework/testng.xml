@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="StepIn2It">
+	<parameter name="browser" value ="Chrome"/>
+  <test name="ChromeLoginTest">
+    <classes>
+       <class name="com.examples.samples.LoginTest" />
+    </classes>
+  </test>
+</suite>
